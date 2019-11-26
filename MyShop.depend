@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1574775634 source:d:\devt\formation_cpp\my_shop\myshop\src\product.cpp
+	"Product.h"
+
+1574775771 d:\devt\formation_cpp\my_shop\myshop\include\product.h
+	<iostream>
+
+1574776734 source:d:\devt\formation_cpp\my_shop\myshop\main.cpp
+	<iostream>
+	"include/Computer.h"
+
+1574776792 d:\devt\formation_cpp\my_shop\myshop\include\computer.h
+	<Product.h>
+
+1574776218 source:d:\devt\formation_cpp\my_shop\myshop\src\computer.cpp
+	"Computer.h"
+
