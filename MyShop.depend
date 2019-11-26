@@ -2,16 +2,23 @@
 1574775634 source:d:\devt\formation_cpp\my_shop\myshop\src\product.cpp
 	"Product.h"
 
-1574775771 d:\devt\formation_cpp\my_shop\myshop\include\product.h
+1574778742 d:\devt\formation_cpp\my_shop\myshop\include\product.h
 	<iostream>
+	"Brand.h"
 
-1574776734 source:d:\devt\formation_cpp\my_shop\myshop\main.cpp
+1574778908 source:d:\devt\formation_cpp\my_shop\myshop\main.cpp
 	<iostream>
-	"include/Computer.h"
+	"Computer.h"
 
-1574776792 d:\devt\formation_cpp\my_shop\myshop\include\computer.h
+1574778897 d:\devt\formation_cpp\my_shop\myshop\include\computer.h
 	<Product.h>
 
-1574776218 source:d:\devt\formation_cpp\my_shop\myshop\src\computer.cpp
+1574778928 source:d:\devt\formation_cpp\my_shop\myshop\src\computer.cpp
 	"Computer.h"
+
+1574777265 d:\devt\formation_cpp\my_shop\myshop\include\brand.h
+	<iostream>
+
+1574777020 source:d:\devt\formation_cpp\my_shop\myshop\src\brand.cpp
+	"Brand.h"
 

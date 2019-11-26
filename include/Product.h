@@ -1,6 +1,7 @@
 #ifndef PRODUCT_H
 #define PRODUCT_H
 #include <iostream>
+#include "Brand.h"
 
 class Product
 {
@@ -9,10 +10,10 @@ class Product
         float price;
         int size_;
         std::string model;
-
+        Brand brand;
         Product();
         virtual ~Product();
-        void turnOnOff();
+        virtual void turnOnOff() = 0;
 
     protected:
 

@@ -13,7 +13,7 @@ class Computer : public Product
 
         Computer();
         virtual ~Computer();
-
+        void turnOnOff();
     protected:
 
     private:
