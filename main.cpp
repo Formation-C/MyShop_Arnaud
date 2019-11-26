@@ -5,11 +5,13 @@ using namespace std;
 
 void displayProduct(const Product& product) {
     //cout << &product << endl;
-    cout << product.model << endl;
+    cout <<  product.model << " @ " <<product.brand->Getname()<< endl;
 }
 int main()
 {
-    Computer myComputer ;
+    Brand smallSoft;
+    smallSoft.Setname("BigSoft");
+    Computer myComputer(&smallSoft);
     myComputer.model = "Super Computer of the death";
     myComputer.price = 30;
     cout << "Computer addr="<< &myComputer << endl;

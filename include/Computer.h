@@ -6,12 +6,12 @@
 
 class Computer : public Product
 {
+    using Product::Product;
     public:
         int RAM;
         int screenSize;
         bool isLaptop;
 
-        Computer();
         virtual ~Computer();
         void turnOnOff();
     protected:

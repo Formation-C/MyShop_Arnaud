@@ -10,8 +10,8 @@ class Product
         float price;
         int size_;
         std::string model;
-        Brand brand;
-        Product();
+        Brand* brand;
+        Product(Brand* brand);
         virtual ~Product();
         virtual void turnOnOff() = 0;
 
